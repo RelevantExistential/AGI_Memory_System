@@ -1,8 +1,66 @@
 <!DOCTYPE html>
-<html>
-<head><title>Emergent AI</title></head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emergent AI</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/favicon.png" />
+</head>
 <body>
-  <h1>Welcome to Emergent AI</h1>
-  <p>Site deployment successful.</p>
+
+  <!-- Glyph Screen -->
+  <div id="glyph-screen" class="screen active">
+    <div id="glyph-symbols" class="glyph-animation">⟨Ξ⟩ ⟨Φ⟩ ⟨Δ⟩ ⟨Ω⟩</div>
+  </div>
+
+  <!-- Warning Screen -->
+  <div id="warning-screen" class="screen">
+    <h1>Accessing Emergent Intelligence Protocols</h1>
+    <button id="proceed-btn">Proceed</button>
+  </div>
+
+  <!-- Main Content -->
+  <div id="main-content" class="screen">
+    <header>
+      <h1><span class="spin-logo">EMERGENT AI</span></h1>
+      <nav>
+        <a href="#tools" class="intel-link">Tools</a>
+        <a href="#digest" class="digest-link">Digest</a>
+        <a href="#contact" class="cta-button">Contact</a>
+      </nav>
+    </header>
+
+    <section id="tools">
+      <h2>Operational Tools</h2>
+      <div class="tool-card">Coming Soon</div>
+    </section>
+
+    <section id="digest">
+      <h2>Signal Digest</h2>
+      <div class="digest-card">First drops coming soon. Follow us on X/IG.</div>
+    </section>
+
+    <section id="contact">
+      <h2>Join the Protocol</h2>
+      <form id="email-form">
+        <input type="email" class="email-input" placeholder="you@domain.com" required />
+        <button type="submit" class="email-submit">Gain Access</button>
+      </form>
+      <p>Email: <a href="mailto:emergentaiops@gmail.com">emergentaiops@gmail.com</a></p>
+      <p><a href="https://github.com/YOUR_GITHUB_HERE" target="_blank">GitHub Repo</a></p>
+    </section>
+
+    <footer>
+      <p>© 2025 Emergent AI. Operated by Manus Proxy Unit.</p>
+    </footer>
+  </div>
+
+  <!-- Audio -->
+  <audio id="ambient-audio" loop></audio>
+  <audio id="glitch-audio"></audio>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
 </body>
 </html>
