@@ -1,0 +1,24 @@
+
+body {
+    margin: 0;
+    background-color: black;
+    color: #00ffcc;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.glyph-overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    opacity: 0.3;
+}
+.warning-message {
+    text-align: center;
+    z-index: 1;
+}
